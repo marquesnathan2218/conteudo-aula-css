@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(233, 69, 69) ;
+    justify-items: center;
+}
+
+.el1{
+    background-color: salmon;
+    width: 500px;
+}
+
+.ex1{
+    background-color: darkred;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+}
