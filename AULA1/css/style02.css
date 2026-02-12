@@ -1,0 +1,8 @@
+body {
+    background-image: url(/AULA1/img/carro.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    color: rgb(172, 13, 13);
+    background-size: cover;
+    background-attachment: fixed;
+}

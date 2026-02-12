@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(245, 158, 52);
+}
+
+.ex1 {
+    border: 6px solid white;
+}
+
+.ex2{
+    border: 6px solid #ffffff;
+    border-width: medium;
+}
+
+.ex3{
+    border: 6px dotted rgb(99, 163, 2);
+}
+
+.ex4{
+    border: dotted #89d812bd;
+    border-width: thick;
+}
+
+.ex5{
+    border: solid black;
+    border-width: 20px 10px;
+    border-color: blue orange pink red;
+}
+
+.ex6{
+    border-top-style: solid;
+    border-right-style:dotted;
+    border-bottom-style: double;
+    border-left-style: none;
+}
+
+.ex7{
+    border: 6px solid pink;
+    border-radius: 20px;
+}
