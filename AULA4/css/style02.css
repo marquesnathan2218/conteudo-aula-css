@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 73, 246);
+}
+.link:link{
+    color: black;
+    background-color: blue;
+}
+
+.link:visited{
+    color: cyan;
+    background-color: red;
+}
+
+.link:hover{
+    color: deeppink;
+    background-color: white;
+}
+
+.link:active{
+    color: chartreuse;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+} 
+
+.link-btn:link, .link-btn:visited{
+   /* background-color: rgb(70, 70, 243);*/
+   background-color: transparent;
+   border: 3px solid rgb(8, 8, 223);
+    color: white;
+    padding: 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:hover, .link-btn:visited{
+    background-color: rgb(19, 19, 122);
+    color: white;
+    border: 3px solid white;
+    transition: .4s;
+}
