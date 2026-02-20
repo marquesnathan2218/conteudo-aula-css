@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(189, 13, 189);
+    color: white;
+}
+
+
+/* Exemplo de align-items: center */
+.ex1{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: rgb(87, 2, 167);
+    text-align: center;
+}
+
+/* Exemplo de align-items: flex-start */
+.ex2{
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+    text-align: center;
+}
+
+/* Exemplo de align-items: flex-end */
+.ex3{
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+    text-align: center;
+}
+
+/* Exemplo de align-items: stretch*/
+.ex4{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex4 div{
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+}
+
+/* Exemplo de align-content: center*/
+.ex5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+}
+
+/* Exemplo de align-content: space-between*/
+.ex6{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+}
+
+/* Exemplo de align-content: center e justify-content: center*/
+.ex7{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex7 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    color: rgb(87, 2, 167);
+}
