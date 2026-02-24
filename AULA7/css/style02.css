@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+    background-color: orange;
+}
+
+/* Exemplo de align-content: center */
+.ex1{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space-evenly */
+.ex2{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space around */
+.ex3{
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: space between*/
+.ex4{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: start*/
+.ex5{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 10px 10px;
+    justify-content: center;
+    align-content: start;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
+
+/* Exemplo de align-content: end*/
+.ex6{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, auto);
+    background-color: crimson;
+    color: white;
+    gap: 10px 10px;
+    justify-content: center;
+    align-content: end;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    text-align: center;
+    align-content: center;
+}
